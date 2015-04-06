@@ -4,13 +4,13 @@
 
 // notes in the melody:
 int melody[] = {
-  NOTE_C5, NOTE_G4, NOTE_A3, NOTE_E2, NOTE_F1, NOTE_F3, NOTE_G4, NOTE_C4, NOTE_G5, NOTE_A5, NOTE_E5,
-  NOTE_F1, NOTE_C2, NOTE_F1, NOTE_G2, NOTE_C5, NOTE_G4, NOTE_A5, NOTE_E5, NOTE_F4, NOTE_C3, NOTE_F4, NOTE_G5, NOTE_C5
+  NOTE_G4, NOTE_DS5, NOTE_D5, NOTE_C5, NOTE_B4, NOTE_C5, NOTE_G4, 
+  NOTE_G4, NOTE_C5, NOTE_CS5, NOTE_C5, NOTE_AS4, NOTE_GS4, NOTE_G4, NOTE_GS4
 };
 
 // note durations: 4 = quarter note, 8 = eighth note, etc.:
 int noteDurations[] = {
-  4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 
+   4, 4/3, 4, 4/3, 4, 4, 4/3, 4, 4, 2, 4, 4, 2, 4, 4, 
 };
 
 void setup() {
